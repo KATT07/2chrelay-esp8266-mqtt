@@ -3,7 +3,7 @@ You will need the following pre-configured
 + mqtt Broker
 + mqtt subscriber to send the messages node-red/homeassistant/etc
 
-Goto Library Manager on Arduino IDE
+Goto Library Manager on Arduino IDE                                                                                                                                                                                                             
 Add PubSubClient Library by Nick O'Leary
 
 # Connections
