@@ -6,6 +6,10 @@ You will need the following pre-configured
 Goto Library Manager on Arduino IDE                                                                                                                                                                                                             
 Add PubSubClient Library by Nick O'Leary
 
+# Software
+Replace XXX in the .ino to the correct details of ur mqtt broker and wifi credentials.                                                                                                                                                          
+Also Make sure to use 2.4GHz Wifi as esp8266 cannot connect to 5Ghz wifi
+
 # Connections
 esp8266 -> Relay                                                                                                                                                                                                                            
 D1 pin -> Relay 1 (In1)                                                                                                                                                                                                                         
