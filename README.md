@@ -14,7 +14,7 @@ Vin(5v) -> Vcc
 Gnd(5v) -> Gnd                                                                                                                                                                                                                            
 
 # General
-MQTT messages:
+MQTT messages:                                                                                                                                                                                                                            
 on1: Relay 1 Turns on                                                                                                                                                                                                                           
 on2: Relay 2 Turns on                                                                                                                                                                                                                           
 off1: Relay 1 Turns off                                                                                                                                                                                                                         
