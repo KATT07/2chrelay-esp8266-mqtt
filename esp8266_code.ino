@@ -1,28 +1,28 @@
 #include <ESP8266WiFi.h> 
- #include <PubSubClient.h> 
+#include <PubSubClient.h> 
   
   
- // WiFi 
- const char *ssid = "XXX"; // Enter your WiFi name 
- const char *password = "XXX";  // Enter WiFi password 
+// WiFi 
+const char *ssid = "XXX"; // Enter your WiFi name 
+const char *password = "XXX";  // Enter WiFi password 
   
- // MQTT Broker 
- const char *mqtt_broker = "192.168.XXX.XXX"; 
- const char *topic = "XXX"; 
- const char *mqtt_username = "XXX"; 
- const char *mqtt_password = "XXX"; 
- const int mqtt_port = 1883; 
+// MQTT Broker 
+const char *mqtt_broker = "192.168.XXX.XXX"; 
+const char *topic = "XXX"; 
+const char *mqtt_username = "XXX"; 
+const char *mqtt_password = "XXX"; 
+const int mqtt_port = 1883; 
   
- // Relay 1,2 
- bool state1 = false; 
- bool state2 = false; 
- const int Relay1 = 5; 
- const int Relay2 = 4; 
+// Relay 1,2 
+bool state1 = false; 
+bool state2 = false; 
+const int Relay1 = 5; 
+const int Relay2 = 4; 
   
- WiFiClient espClient; 
- PubSubClient client(espClient); 
+WiFiClient espClient; 
+PubSubClient client(espClient); 
   
- void setup() { 
+void setup() { 
      //Setup relay output mode 
      pinMode(Relay1, OUTPUT); 
      pinMode(Relay2,OUTPUT); 
